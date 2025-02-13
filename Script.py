@@ -73,19 +73,3 @@ for i in range(0,len(fetched_strings)):
         print(f"{fetched_strings[i]} (Rejected)")
     else:
         print(f"{fetched_strings[i]} (Rejected)")
-
-
-# Sample
-
-# current_state = starting_state
-# print(current_state)
-# current_rule = {}
-# current_letter = "b"
-# for key,value in rules.items():
-#     if(key==current_state):
-#         current_rule = value
-# # print(current_rule)
-# for item,value in current_rule.items():
-#     if(current_letter==item):
-#         current_state = value
-# print(current_state)
